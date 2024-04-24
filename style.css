@@ -26,6 +26,7 @@
     align-items: center;
     padding: 20px;
 }
+
 .header h1 {
     display: flex;
     align-items: center;
@@ -118,6 +119,117 @@
 .number{
     position: absolute;
     left: -14px
+}
+/*PROCESSO DE ALUGUEL*/
+.processo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+    padding-top: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    max-width: 900px;
+    max-height: 800px;
+    
+}
+.title-description p,
+.etapas-drescription p {
+    padding-bottom: 26px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+.title-description h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.etapas {
+    font-size: 15px;
+    
+}
+.p1 {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+}
+.p1 p {
+    padding-right: 10px;
+}
+/* Entrega */
+.entrega {
+    text-align: center;
+    padding-top: 25px; 
+}
+.entrega h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.entrega > p {
+    font-size: 20px;
+}
+
+.opcoes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.retirada,
+.seguro {
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    background-color: #7E023C;
+    margin: 40px auto  ;
+    justify-content: center;
+   
+}
+.retirada,
+.seguro {
+    padding: 60px;
+    text-align: center;
+}
+
+.pagamento {
+    background-image: url(img/novo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin: 50px auto;
+    border-radius: 30px;
+    opacity: 0.8;
+    max-width: 1050px;
+}
+/* Pagamento */
+.organizacao {
+    position: relative;
+    text-align: center;
+}
+.pagar {
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    color: white;
+    text-align: center;
+}
+.titulos {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+  text-align: center;
+  width: 100%; /* Para ocupar toda a largura da tela */
+  height: 100%; /* Para ocupar toda a altura da tela */
+  color: white;
+  top: 0px;
+}
+
+.perguntas {
+    display: flex;
+    padding: 20px;
 }
 
     
