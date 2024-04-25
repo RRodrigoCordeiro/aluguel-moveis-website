@@ -159,16 +159,23 @@
     padding-right: 10px;
 }
 /* Entrega */
+.contato,
+.pg,
 .entrega {
     text-align: center;
     padding-top: 25px; 
 }
+.contato h2,
+.pg h2,
 .entrega h2 {
     font-size: 30px;
     padding-bottom: 15px;
 }
+.contato > p,
+.pg >p,
 .entrega > p {
     font-size: 20px;
+    padding-bottom: 20px;
 }
 
 .opcoes {
@@ -191,7 +198,6 @@
     padding: 60px;
     text-align: center;
 }
-
 .pagamento {
     background-image: url(img/novo.png);
     background-repeat: no-repeat;
@@ -202,7 +208,24 @@
     opacity: 0.8;
     max-width: 1050px;
 }
-/* Pagamento */
+/* Pagemento Facilitado */
+.pagamento-facilitado {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 20px;
+}
+.pagamento1 {
+    border: 2px solid black;
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+
+}
+
+/* FAQ */
 .organizacao {
     position: relative;
     text-align: center;
