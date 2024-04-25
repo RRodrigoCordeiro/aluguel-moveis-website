@@ -224,6 +224,18 @@
     margin: 5px;
 
 }
+/* Contato */
+button {
+ background-color: #F20374;
+ padding: 20px;
+ border-radius: 20px;
+ margin: 20px;
+ font-size: 20px;
+ color: white;
+}
+button:hover {
+    cursor: pointer;
+}
 
 /* FAQ */
 .organizacao {
@@ -253,6 +265,16 @@
 .perguntas {
     display: flex;
     padding: 20px;
+}
+/* footer */
+a,
+footer {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
 }
 
     
