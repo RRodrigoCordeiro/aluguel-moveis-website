@@ -115,6 +115,8 @@
     margin-left: 5px;
     position: relative;
     font-size: 18px;
+   
+
 }
 .number{
     position: absolute;
@@ -275,5 +277,17 @@ footer {
     font-weight: bold;
     padding: 5px;
 }
+.redeSocial{
+    background-color: rgb(14, 197, 14);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25px;
+}
+
 
     
