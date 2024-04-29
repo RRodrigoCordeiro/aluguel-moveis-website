@@ -14,7 +14,7 @@
     height: 500px;
     opacity: 0.4;
 }
-.description {
+.description-header {
     position: absolute;
     top: 0;
     left: 0;
@@ -42,54 +42,7 @@
     line-height: 25px;
     max-width: 600px;
 }
-.body-page h2{
-    text-align: center;
-    padding-top: 45px;
-    padding-bottom: 45px;
-}
-.re {
-    text-align: center;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    
-}
-/* corpo do texto */
-.m1{
-    display: flex;
-    flex-wrap: wrap;
-     /* margin: 0 auto; */
-    justify-content:center;
-    /* align-items: center; */
-    
-    /* justify-content: center;
-    align-items: center;
-    flex-direction: row; */
-}
-.m1 img{
-    margin: 10px;
-    width: 200px;
-    height: 180px;
-}
-.m1 p {
-    max-width: 500px; 
-     text-align: justify;
-}
-.texte {
-    display: flex;
-    justify-content:space-evenly;
-    flex-direction: column;
-    max-width: 300px;  
-    padding-right: 25px; 
-    padding-left: 5px;  
-
-}
-.title{
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 15px;
-}
-
-.servicos {
+.services {
     text-align: center;
     position: relative;
     padding:50px; 
@@ -99,31 +52,68 @@
     height: 400px;
     width: 900px;
 }
-
+.description-services p{
+    padding-top: 40px;
+    font-size: 20px;
+}
 .card-pai{
     display: flex;
    padding: 50px;
     text-align: justify;
-}
-.description-servico p{
-    padding-top: 40px;
-    font-size: 20px;
-   
 }
 .card{
     padding-right:20px;
     margin-left: 5px;
     position: relative;
     font-size: 18px;
-   
-
 }
 .number{
     position: absolute;
     left: -14px
 }
+.title{
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.products h2{
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+}
+.furniture{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.furniture img{
+    margin: 10px;
+    width: 200px;
+    height: 180px;
+}
+.furniture p {
+    max-width: 500px; 
+     text-align: justify;
+}
+.furniture-text {
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    max-width: 300px;  
+    padding-right: 25px; 
+    padding-left: 5px; 
+
+}
+.re {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    
+}
+/* corpo do texto */
 /*PROCESSO DE ALUGUEL*/
-.processo {
+.rental-process {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,57 +125,57 @@
     max-height: 800px;
     
 }
-.title-description p,
-.etapas-drescription p {
+.rental-process-title p,
+.phases-drescription p {
     padding-bottom: 26px;
     padding-top: 10px;
     font-size: 20px;
     text-align: center;
-    line-height: 30px;
-    
+    line-height: 30px; 
+
 }
-.title-description h2 {
+.rental-process-title h2 {
     text-align: center;
     font-size: 30px;
 }
-.etapas {
+.phases {
     font-size: 15px;
-    
+
 }
-.p1 {
+.phases-name {
     display: flex;
     font-weight: bold;
     font-size: 20px;
 }
-.p1 p {
+.phases-name p {
     padding-right: 10px;
 }
 /* Entrega */
 .contato,
 .pg,
-.entrega {
+.delivery {
     text-align: center;
     padding-top: 25px; 
 }
 .contato h2,
 .pg h2,
-.entrega h2 {
+.delivery h2 {
     font-size: 30px;
     padding-bottom: 15px;
 }
 .contato > p,
 .pg >p,
-.entrega > p {
+.delivery > p {
     font-size: 20px;
     padding-bottom: 20px;
 }
 
-.opcoes {
+.options {
     display: flex;
     flex-wrap: wrap;
 }
-.retirada,
-.seguro {
+.removal,
+.secure {
     padding: 25px;
     border: 2px solid black;
     border-radius: 20px;
@@ -193,13 +183,10 @@
     background-color: #7E023C;
     margin: 40px auto  ;
     justify-content: center;
-   
-}
-.retirada,
-.seguro {
     padding: 60px;
-    text-align: center;
+    text-align: center; 
 }
+/* PAGEMENTO - */
 .pagamento {
     background-image: url(img/novo.png);
     background-repeat: no-repeat;
@@ -286,7 +273,7 @@ footer {
     width: 60px;
     padding: 10px;
     margin: 5px;
-    border-radius: 25px;
+    border-radius: 50px;
 }
 
 
