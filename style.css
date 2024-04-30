@@ -3,6 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root{
+    --primary-color: #000000;
+    --segundary-color: #ffffff;
+    --tertiary-color: #7E023C;
+    --quaternary-color: #F20374;
+    --quinternary-color: #0ddc0d;
+}
 .header {
     position: relative;
 }
@@ -31,13 +38,13 @@
     display: flex;
     align-items: center;
     justify-content: center; 
-    color: black;
+    color: var(--primary-color);
 }
 .header p {
     font-size: 20px;
     text-align: justify;
     font-weight: bold;
-    color: black;
+    color: var(--primary-color);
     padding-top: 15px;
     line-height: 25px;
     max-width: 600px;
@@ -46,7 +53,7 @@
     text-align: center;
     position: relative;
     padding:50px; 
-    border: 2px solid black;
+    border: 2px solid var(--primary-color);
     border-radius: 25px;
     margin: 30px auto;
     height: 400px;
@@ -105,25 +112,17 @@
     padding-left: 5px; 
 
 }
-.re {
-    text-align: center;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    
-}
-/* corpo do texto */
-/*PROCESSO DE ALUGUEL*/
 .rental-process {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 35px auto;
     padding-top: 20px;
-    border: 2px solid black;
+    border: 2px solid var(--primary-color);
     border-radius: 25px;
     max-width: 900px;
     max-height: 800px;
-    
+
 }
 .rental-process-title p,
 .phases-drescription p {
@@ -151,20 +150,21 @@
     padding-right: 10px;
 }
 /* Entrega */
-.contato,
-.pg,
+.contact,
+.pay,
 .delivery {
     text-align: center;
     padding-top: 25px; 
 }
-.contato h2,
-.pg h2,
+.faq-information h2,
+.contact h2,
+.pay h2,
 .delivery h2 {
     font-size: 30px;
     padding-bottom: 15px;
 }
-.contato > p,
-.pg >p,
+.contact > p,
+.pay >p,
 .delivery > p {
     font-size: 20px;
     padding-bottom: 20px;
@@ -177,17 +177,44 @@
 .removal,
 .secure {
     padding: 25px;
-    border: 2px solid black;
+    border: 2px solid var(--primary-color);
     border-radius: 20px;
-    color: white;
-    background-color: #7E023C;
+    color: var(--segundary-color);
+    background-color: var(--tertiary-color);
     margin: 40px auto  ;
     justify-content: center;
     padding: 60px;
     text-align: center; 
 }
-/* PAGEMENTO - */
-.pagamento {
+.contact-information {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 20px;
+}
+.card-pay {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5px;
+}
+button {
+    background-color: var(--quaternary-color);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 20px;
+    color: var(--segundary-color);
+}
+button:hover {
+    cursor: pointer;
+}
+.faq {
+    position: relative;
+    text-align: center;
+}
+.image-faq {
     background-image: url(img/novo.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,77 +222,41 @@
     margin: 50px auto;
     border-radius: 30px;
     opacity: 0.8;
-    max-width: 1050px;
+    max-width: 1100px;
 }
-/* Pagemento Facilitado */
-.pagamento-facilitado {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 25px;
-    font-size: 20px;
-}
-.pagamento1 {
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 5px;
-
-}
-/* Contato */
-button {
- background-color: #F20374;
- padding: 20px;
- border-radius: 20px;
- margin: 20px;
- font-size: 20px;
- color: white;
-}
-button:hover {
-    cursor: pointer;
-}
-
-/* FAQ */
-.organizacao {
-    position: relative;
-    text-align: center;
-}
-.pagar {
+.faq-information {
     position: absolute;
     top: 50px;
     left: 450px;
-    color: white;
+    color: var(--segundary-color);
     text-align: center;
 }
-.titulos {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  
-  align-items: center;
-  text-align: center;
-  width: 100%; /* Para ocupar toda a largura da tela */
-  height: 100%; /* Para ocupar toda a altura da tela */
-  color: white;
-  top: 0px;
+.questions-faq {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; 
+    height: 100%;
+    color: var(--segundary-color);
+    top: 0px;
 }
-
-.perguntas {
+.questions {
     display: flex;
     padding: 20px;
 }
-/* footer */
 a,
 footer {
-    background-color: black;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--segundary-color);
     text-decoration: none;
     text-align: center;
     font-weight: bold;
     padding: 5px;
 }
 .redeSocial{
-    background-color: rgb(14, 197, 14);
+    background-color: var(--quinternary-color);
     position: fixed;
     right: 20px;
     bottom: 20px;
