@@ -49,6 +49,11 @@
     line-height: 25px;
     max-width: 600px;
 }
+.link{
+ font-size: 20px;
+ text-decoration: none;
+ color: var(--primary-color);
+}
 .services {
     text-align: center;
     position: relative;
@@ -246,7 +251,7 @@ button:hover {
     display: flex;
     padding: 20px;
 }
-a,
+.github,
 footer {
     background-color: var(--primary-color);
     color: var(--segundary-color);
