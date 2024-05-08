@@ -246,11 +246,20 @@ button:hover {
     max-width: 1100px;
 }
 .faq-information {
-    position: absolute;
+    /* position: absolute;
     top: 50px;
-    left: 450px;
-    color: var(--segundary-color);
-    text-align: center;
+    left: 450px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: -120px;
+    position: absolute;
+    color:var(--segundary-color);
+    
+   
 }
 .questions-faq {
     position: absolute;
@@ -370,11 +379,50 @@ footer {
         
     }
     .contact iframe {
-     width: 350px;   
+     width: 345px;   
     }
-    /* .faq{
-        width: 472px;
-    } */
+    
+    .contact-information{
+        font-size: 25px;
+    }
+    .contact h2 {
+        font-size: 25px;
+    }
+    .contact p{
+        font-size: 9px;
+    }
+   
+    .pay h2{
+        font-size: 10px;
+    }
+    .pay p {
+        font-size: 10px;
+    }
+    .card-pay {
+        font-size: 11px;
+        
+    }
+    .rental-process {
+        font-size: 25px;
+        width: 350px;
+    }
+    .removal,
+    .secure {
+        width: 350px;
+    }
+    .faq-information h2 {
+        font-size: 20px;
+    }
+    .faq {
+        width: 345px;
+        margin: 0 auto;
+    }
+    .faq p {
+        font-size: 10px;
+    }
+    .faq h3 {
+        font-size: 13px;
+    }
 }
 
 
