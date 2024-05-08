@@ -10,6 +10,10 @@
     --quaternary-color: #F20374;
     --quinternary-color: #0ddc0d;
 }
+html{
+    scroll-behavior: smooth;
+}
+/* Inicio do Header */
 .header {
     position: relative;
 }
@@ -54,6 +58,8 @@
  text-decoration: none;
  color: var(--primary-color);
 }
+/* Fim do Header */
+/* Iníco dos Serviços */
 .services {
     text-align: center;
     position: relative;
@@ -94,6 +100,8 @@
     padding-bottom: 45px;
 
 }
+/* Fim dos Serviços */
+/* Inicio dos produtos */
 .furniture{
     display: flex;
     flex-wrap: wrap;
@@ -103,10 +111,17 @@
     margin: 10px;
     width: 200px;
     height: 180px;
+    opacity: 0.8;
+    transition: 0.9s;
+}
+.furniture img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .furniture p {
     max-width: 500px; 
-     text-align: justify;
+    text-align: justify;
 }
 .furniture-text {
     display: flex;
@@ -117,6 +132,7 @@
     padding-left: 5px; 
 
 }
+/* Fim dos produtos */
 .rental-process {
     display: flex;
     justify-content: center;
@@ -270,7 +286,97 @@ footer {
     padding: 10px;
     margin: 5px;
     border-radius: 50px;
+    
 }
+/* INCIO RESPONSIVIDADE */
+@media (max-width:1056px) {
+   
+    .furniture img {
+        width: 180px;
+        opacity: 1;
+
+    }
+}
+@media (max-width:1024px) {
+    .furniture img {
+        width: 155px;
+        height: 160px;
+    }
+    .furniture h3 {
+        font-size: 17px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+        /* height: 160px; */
+        
+     }
+    .furniture p {
+        font-size: 15px;
+        line-height: 20px;
+        width: 200px;
+    } 
+}
+@media (max-width:800px) {
+    .services {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .description-services h1 {
+        font-size: 20px;
+        margin-top:  2px;
+        
+    }
+    .description-services p{
+        font-size: 15px;
+        padding-top: 5px;
+
+    }
+    .title{
+        padding-bottom: 2px;
+    }
+    .card p {
+        font-size: 10px;
+    
+        
+    }
+  
+    .description-services {
+        font-size: 40px;     
+    }
+   
+    .furniture  {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+        align-items: center;
+    }
+    .furniture img {
+        display: flex;
+        text-align: center;
+        width: 300px;
+        height: 180px;
+       
+    }
+    .furniture h3 {
+        font-size: 20px;
+    }
+    .furniture p {
+        font-size: 15px;
+        width: 300px;
+        line-height: 22px;
+        
+    }
+    .contact iframe {
+     width: 350px;   
+    }
+    /* .faq{
+        width: 472px;
+    } */
+}
+
 
 
     
