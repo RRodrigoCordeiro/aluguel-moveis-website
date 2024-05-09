@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: 0;
 }
 :root{
     --primary-color: #000000;
@@ -133,6 +134,7 @@ html{
 
 }
 /* Fim dos produtos */
+/* Inicio do processo de aluguel */
 .rental-process {
     display: flex;
     justify-content: center;
@@ -170,7 +172,8 @@ html{
 .phases-name p {
     padding-right: 10px;
 }
-/* Entrega */
+/* Fim do processo de aluguel */
+/*Inicio da Entrega */
 .contact,
 .pay,
 .delivery {
@@ -207,6 +210,8 @@ html{
     padding: 60px;
     text-align: center; 
 }
+/* Fim da entrega */
+/* Inicio do Contato */
 .contact-information {
     text-align: center;
     display: flex;
@@ -231,6 +236,8 @@ button {
 button:hover {
     cursor: pointer;
 }
+/* Fim do contato */
+/* Inicio do faq */
 .faq {
     position: relative;
     text-align: center;
@@ -246,9 +253,6 @@ button:hover {
     max-width: 1100px;
 }
 .faq-information {
-    /* position: absolute;
-    top: 50px;
-    left: 450px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -257,9 +261,7 @@ button:hover {
     height: 100%;
     top: -120px;
     position: absolute;
-    color:var(--segundary-color);
-    
-   
+    color:var(--segundary-color);  
 }
 .questions-faq {
     position: absolute;
@@ -276,6 +278,8 @@ button:hover {
     display: flex;
     padding: 20px;
 }
+/* Fim do faq */
+/* Inicio footer */
 .github,
 footer {
     background-color: var(--primary-color);
@@ -297,13 +301,12 @@ footer {
     border-radius: 50px;
     
 }
-/* INCIO RESPONSIVIDADE */
+/* Fim do footer */
+/* Inicio da responsividade*/
 @media (max-width:1056px) {
-   
     .furniture img {
         width: 180px;
         opacity: 1;
-
     }
 }
 @media (max-width:1024px) {
@@ -315,59 +318,60 @@ footer {
         font-size: 17px;
         margin-bottom: 5px;
         margin-top: 15px;
-        /* height: 160px; */
-        
      }
     .furniture p {
         font-size: 15px;
         line-height: 20px;
         width: 200px;
     } 
+    .contact iframe {
+        width: 700px;
+    }
+    .faq,
+    .services,
+    .rental-process {
+        margin: 0 auto;
+        width: 800px;
+        margin-top: 15px;
+    }
 }
 @media (max-width:800px) {
     .services {
         width: 360px;
+        margin-top: 15px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
     .description-services h1 {
         font-size: 20px;
-        margin-top:  2px;
-        
+        margin-top:  2px;  
     }
     .description-services p{
         font-size: 15px;
         padding-top: 5px;
-
     }
     .title{
         padding-bottom: 2px;
     }
     .card p {
-        font-size: 10px;
-    
-        
+        font-size: 10px;   
     }
-  
     .description-services {
         font-size: 40px;     
     }
-   
     .furniture  {
        display: flex;
        flex-direction: column;
        justify-content: center;
-        align-items: center;
+       align-items: center;
     }
     .furniture img {
         display: flex;
         text-align: center;
         width: 300px;
-        height: 180px;
-       
+        height: 180px; 
     }
     .furniture h3 {
         font-size: 20px;
@@ -375,32 +379,7 @@ footer {
     .furniture p {
         font-size: 15px;
         width: 300px;
-        line-height: 22px;
-        
-    }
-    .contact iframe {
-     width: 345px;   
-    }
-    
-    .contact-information{
-        font-size: 25px;
-    }
-    .contact h2 {
-        font-size: 25px;
-    }
-    .contact p{
-        font-size: 9px;
-    }
-   
-    .pay h2{
-        font-size: 10px;
-    }
-    .pay p {
-        font-size: 10px;
-    }
-    .card-pay {
-        font-size: 11px;
-        
+        line-height: 22px;   
     }
     .rental-process {
         font-size: 25px;
@@ -410,10 +389,34 @@ footer {
     .secure {
         width: 350px;
     }
+    .contact iframe {
+     width: 345px;   
+    }
+    .contact-information{
+        font-size: 25px;
+    }
+    .contact h2 {
+        font-size: 25px;
+    }
+    .contact p{
+        font-size: 12px;   
+    }
+    .card {
+        padding: 4px;
+    }
+    .pay h2{
+        font-size: 10px;
+    }
+    .pay p {
+        font-size: 10px;
+    }
+    .card-pay {
+        font-size: 11px;  
+    }
     .faq-information h2 {
         font-size: 20px;
     }
-    .faq {
+    .faq  {
         width: 345px;
         margin: 0 auto;
     }
@@ -424,6 +427,7 @@ footer {
         font-size: 13px;
     }
 }
+/*  Fim da responsividade */
 
 
 
