@@ -17,13 +17,22 @@ A seção de políticas e pagamentos esclarece os prazos e métodos de pagamento
 Este projeto foi desenvolvido com o objetivo de proporcionar uma plataforma intuitiva e acessível, focada em facilitar o processo de aluguel de imóveis para os clientes, enquanto oferece uma interface amigável e informativa.
 
 ## Layout mobile
+### Imagem da Localização 
+
 ![Mobile 1](img/layoutMobile1.png)
+
+### Imagem da escolha dos Móveis 
 
 ![Mobile 1](img/layoutMobile2.png) 
 
 
 ## Layout web
+### Imagem da Localização 
+
 ![Web 1](img/layoutWeb1.png)
+
+### Imagem da escolha dos móveis
+
 
 ![Web 1](img/layoutWeb2.png)
 
