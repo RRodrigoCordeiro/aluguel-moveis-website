@@ -4,7 +4,6 @@
 https://moveisparavoce.vercel.app/
 
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
 
 Este projeto consiste em uma landing page desenvolvida em HTML e CSS dedicada ao aluguel de imóveis. A página oferece uma experiência completa e informativa para potenciais locatários. Inclui uma seção detalhada que apresenta os diversos serviços de aluguel disponíveis, cada um com fotos dos imóveis, seus respectivos nomes e descrições detalhadas.
 
