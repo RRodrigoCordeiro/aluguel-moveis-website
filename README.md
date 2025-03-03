@@ -64,4 +64,4 @@ Abra arquivo "index.html" em um navegador da web
 
 Rodrigo Cordeiro
 
-https://www.linkedin.com/in/rodrigo-cordeiro-4687992ab/
+https://www.linkedin.com/in/rodrigocordeirot/
